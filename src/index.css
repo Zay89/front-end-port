@@ -1,0 +1,55 @@
+:root {
+  --padding-mobile: 20px;
+  --padding-tablet: 50px;
+  --padding-desktop: 100px;
+  --first-color: #060920;
+  --second-color: #2c3547;
+  --color-first-text: white;
+  --color-second-text: #34B0BE;
+  --font-family: 'Lato', sans-serif;
+}
+
+*, ::before,
+::after{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: var(--font-family);
+  width: auto;
+}
+
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.App {
+  background-color: var(--first-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*.main {
+  flex: 1;
+}*/

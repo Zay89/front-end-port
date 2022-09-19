@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0 ;
+    margin-bottom: 0;
+    background-color: var(--second-color);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_text {
+    color: var(--color-first-text);
+}

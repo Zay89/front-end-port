@@ -1,0 +1,89 @@
+.home_main {
+    padding: 10px;
+}
+
+.home {
+    min-height: 60vh;
+    width: 100%;
+    padding: 0;
+    background-image: url('../../../Assets/Img/yo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home_container {
+    min-height: 50%;
+    width: 35%;  
+}
+
+.home_container_title {
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--color-first-text);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+}
+
+.home_container_name {
+    color: var(--color-second-text);
+    font-size: 40px;
+    font-family: 900;
+}
+
+.home_container_line {
+    background-color: var(--color-first-text);
+    height: 2px;
+    width: 80%;
+    margin: 0;
+}
+
+.home_dev {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-top: 20px;
+}
+
+.home_dev_title {
+    font-size: 25px;
+    color: var(--color-second-text);
+    text-align: center;
+}
+
+.home_dev_dev {
+    color: var(--color-first-text);
+    text-align: center;
+}
+
+.home_dev_icons {
+    font-size: 24px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.home_dev_icons_linkedin,
+.home_dev_icons_github {
+    font-size: 16px;
+    background-color: #D1CECA;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media screen {
+    
+}

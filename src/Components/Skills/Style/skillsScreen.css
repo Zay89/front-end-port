@@ -1,0 +1,33 @@
+.skills_title {
+    color: var(--color-second-text);
+    text-align: center;
+}
+
+.skills_container {
+    color: var(--color-first-text);
+}
+
+.skills_icons {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 10px;
+}
+
+.skills_icon_html,
+.skills_icon_css,
+.skills_icon_js,
+.skills_icon_react,
+.skills_icon_redux,
+.skills_icon_git {
+    padding: 5px;
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-brands,
+.bx {
+    font-size: 30px;
+}
